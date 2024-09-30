@@ -1,0 +1,6 @@
+jupyter notebook
+!pip install tensorflow matplotlib
+
+La secuencia de entrada (de longitud 40) primero pasa por la capa de embedding que convierte los caracteres en vectores de 50 dimensiones.
+Luego, esa representación pasa por la capa LSTM, que procesa toda la secuencia y genera una representación final de 128 dimensiones.
+Finalmente, esta representación se alimenta a una capa Dense que realiza la predicción final de cuál será el siguiente carácter en la secuencia.
